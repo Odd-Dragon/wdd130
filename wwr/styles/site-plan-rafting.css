@@ -26,6 +26,10 @@ Fonts are separated by a & */
   --nav-hover-background-color: #2b4e5f;
 }
 
+.testFont {
+  font-family: "Rock Salt";
+}
+
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
