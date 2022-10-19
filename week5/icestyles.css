@@ -1,0 +1,25 @@
+body{
+    background-color: grey;
+    margin: 0;
+}
+.title{
+    width: 100%;
+}
+.deskpic{
+    width: 300px;
+    border: 15px solid #565656;
+    border-radius:50%;
+    margin: 45px;
+}
+.graphicpic{
+    width: 300px;
+    border: 15px solid #565656;
+    border-radius:50%;
+    margin:45px;
+}
+.personpic{
+    width: 300px;
+    border: 15px solid #565656;
+    border-radius:50%;
+    margin:45px;
+}

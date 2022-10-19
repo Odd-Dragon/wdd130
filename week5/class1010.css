@@ -1,0 +1,43 @@
+div {
+    width: 300px;
+    border: 15px solid red;
+    padding: 50px red;
+    color:black;
+    background-color: red;
+    margin: 0 auto;
+    text-align:center;
+  }
+  p {
+    width: 400px;
+    border: 15px solid blue;
+    padding: 50px blue;
+    color:black;
+    background-color: blue;
+    margin: 0 auto;
+    text-align:center;
+  }
+  section {
+    width: 500px;
+    border: 15px solid green;
+    padding: 50px green;
+    color:black;
+    background-color: green;
+    margin: 0 auto;
+    text-align:center;
+  }
+  h1 {
+    width: 50px;
+    height:150px;
+    border: 15px solid rebeccapurple;
+    padding: 50px rebeccapurple;
+    background-color: rebeccapurple;
+    margin: 120px 370px;
+  }
+  h2 {
+    width: 50px;
+    height:150px;
+    border: 15px solid rebeccapurple;
+    padding: 50px rebeccapurple;
+    background-color: rebeccapurple;
+    margin: -120px 1050px ;
+  }
