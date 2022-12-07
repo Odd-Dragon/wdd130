@@ -16,12 +16,22 @@ body{width: 100%; padding: 0; margin: 0; background-color: #fcf5e5}
 .classLinks{display:grid; width: 100%; grid-template-columns: repeat(7, auto); column-gap: 10px;}
 .class-img{width: 100%}
 .raceLinks{display:grid; width: 100%; grid-template-columns: repeat(7, auto); column-gap: 10px;}
-.races{text-align: center; color:#590124}
+.races{text-align: center; color:#590124; font-family:'Titillium Web',Arial, Helvetica, sans-serif;}
 .races.hover{color:#0c4d50}
-.customLinks{display:grid; width: 100%; grid-template-columns: repeat(5, auto); column-gap: 10px; padding-bottom: 10px;}
+.customLinks{display:grid; width: 100%; grid-template-columns: repeat(5, auto); column-gap: 10px; padding-bottom: 10px; font-family:'Titillium Web',Arial, Helvetica, sans-serif;}
 .custom{text-align: center; color:#590124}
 footer{background-color:#864153}
 .footerElements{display:grid; width: 100%; grid-template-columns: 25% 50% 25%;}
 .social{margin: 0 auto; padding-top: 5px}
 .disclaimer{text-align:center; color:#99c9bd}
 .contact{height: 50px; margin: 0 auto; padding-top: 5px}
+.intro{display:grid; width: 100%; grid-template-columns: auto auto; column-gap: 10px;}
+table{margin: 0 auto; color:#590124; font-family:'Titillium Web',Arial, Helvetica, sans-serif;}
+table tr:nth-child(odd){background-color:#99c9bd}
+.warlockBody{text-align: center;}
+.invocations{color:#590124; font-family:'Titillium Web',Arial, Helvetica, sans-serif;}
+.pacts{color:#590124; font-family:'Titillium Web',Arial, Helvetica, sans-serif;}
+.spellsLink{color:#590124; font-family:'Titillium Web',Arial, Helvetica, sans-serif;}
+.itemsLink{color:#590124; font-family:'Titillium Web',Arial, Helvetica, sans-serif;}
+.patrons{color:#590124; font-family:'Titillium Web',Arial, Helvetica, sans-serif;}
+ul{color:#0c4d50; font-family:'Titillium Web',Arial, Helvetica, sans-serif;}
