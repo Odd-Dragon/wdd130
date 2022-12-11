@@ -5,29 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Warlock Patrons</title>
+    <link type="text/css" rel="stylesheet" href="./styles/site-styles.css">
 </head>
 <header>
-    <img class= "header" src="./images/sparkles.png" alt="header background">
-    <img class= "logo" src="./images/Quixotic-Dragons Logo.png" alt="logo">
     <nav>
         <a href="./index.html">Home</a>
         <a href="./site-plan-project.html">Site Plan</a>
         <a href="./warlock.html">Project Page 2</a>
-        <a href="./patrons.html">Project Page 3</a>
+        <img class= "logo" src="./images/Quixotic-Dragons Logo.png" alt="logo">
+        <div class="split">
+            <a href="./patrons.html">Project Page 3</a>
+            <input type="text" placeholder="Search..">
+        </div>
     </nav>
-    <input type="text" placeholder="Search..">
 </header>
 <body>
-    <h1>Warlock Patrons</h1>
-    <p>The beings that serve as patrons for warlocks are mighty inhabitants of other planes of existence—
+    <div class="patronIntro">
+        <h1>Warlock Patrons</h1>
+        <p>The beings that serve as patrons for warlocks are mighty inhabitants of other planes of existence—
         not gods, but almost godlike in their power. Various patrons give their warlocks access to different 
         powers and invocations, and expect significant favors in return.</p>
-    <p>Some patrons collect warlocks, doling out mystic knowledge relatively freely or boasting of their 
+        <p>Some patrons collect warlocks, doling out mystic knowledge relatively freely or boasting of their 
         ability to bind mortals to their will. Other patrons bestow their power only grudgingly, and might 
         make a pact with only one warlock. Warlocks who serve the same patron might view each other as 
         allies, siblings, or rivals.</p>
-    <table class="Patrons">
         <h2>Patron Features By Level</h2>
+    </div>
+    <table class="Patrons">
         <tr>
             <td>Patron</td>
             <td>1st level</td>
@@ -176,111 +180,128 @@
             <td>Indestructible Life</td>
         </tr>
     </table>
-    <img class="archfey" src="./images/archfey.jpg">
-    <h3>The Archfey</h3>
-    <p>Your patron is a lord or lady of the fey, a creature of legend who holds secrets that were 
-        forgotten before the mortal races were born. This being's motivations are often inscrutable, and 
-        sometimes whimsical, and might involve a striving for greater magical power or the settling of 
-        age-old grudges. Beings of this sort include the Prince of Frost; the Queen of Air and Darkness, 
-        ruler of the Gloaming Court; Titania of the Summer Court; her consort Oberon, the Green Lord; 
-        Hyrsam, the Prince of Fools; and ancient hags.</p>
-    <h4>Expanded Spell List</h4>
-    <p>The Archfey lets you choose from an expanded list of spells when you learn a warlock spell. The 
-        following spells are added to the warlock spell list for you.</p>
-        <ul>
-            <li>Spell Level 1- <i>Faerie Fire, Sleep</i></li>
-            <li>Spell Level 2- <i>Calm Emotions, Phantasmal Force</i></li>
-            <li>Spell Level 3- <i>Blink, Plant Growth</i></li>
-            <li>Spell Level 4- <i>Dominate Beast, Greater Invisibility</i></li>
-            <li>Spell Level 5- <i>Dominate Person, Seeming</i></li>
-        </ul>
-    <h4>Fey Presence</h4>
-    <p>Starting at 1st level, your patron bestows upon you the ability to project the beguiling and 
-        fearsome presence of the fey. As an action, you can cause each creature in a 10-foot cube 
-        originating from you to make a Wisdom saving throw against your warlock spell save DC. The 
-        creatures that fail their saving throws are all charmed or frightened by you (your choice) 
-        until the end of your next turn.</p>
-    <p>Once you use this feature, you can't use it again until you finish a short or long rest.</p>
-    <h4>Misty Escape</h4>
-    <p>Starting at 6th level, you can vanish in a puff of mist in response to harm. When you take damage, 
-        you can use your reaction to turn invisible and teleport up to 60 feet to an unoccupied space you 
-        can see. You remain invisible until the start of your next turn or until you attack or cast a spell.</p>
-    <h4>Beguiling Defenses</h4>
-    <p>Beginning at 10th level, your patron teaches you how to turn the mind-affecting magic of your 
-        enemies against them. You are immune to being charmed, and when another creature attempts to 
-        charm you, you can use your reaction to attempt to turn the charm back on that creature. The 
-        creature must succeed on a Wisdom saving throw against your warlock spell save DC or be charmed 
-        by you for 1 minute or until the creature takes any damage.</p>
-    <h4>Dark Delirium</h4>
-    <p>Starting at 14th level, you can plunge a creature into an illusory realm. As an action, choose a 
-        creature that you can see within 60 feet of you. It must make a Wisdom saving throw against your 
-        warlock spell save DC. On a failed save, it is charmed or frightened by you (your choice) for 1 
-        minute or until your concentration is broken (as if you are concentrating on a spell). This effect 
-        ends early if the creature takes any damage.</p>
-    <p>Until this illusion ends, the creature thinks it is lost in a misty realm, the appearance of which 
-        you choose. The creature can see and hear only itself, you, and the illusion.</p>
-    <p>You must finish a short or long rest before you can use this feature again.</p>
-    <img class="archlich" src="./images/archlich.jpg">
-    <h3>The Archlich</h3>  
-    <p>Your patron is an archlich, a particularly powerful lich that may have been neutral or good during 
-        life. This being's motivations include immortality, mastery of death and undeath, and the acquisition 
-        of any kind of knowledge you or it can access. Entities of this type include Lady Alanthene Moonstar 
-        of Waterdeep, Rhaudilath the Ageless, Ezzat the Archlich, Lady Saharel, and Renwick Caradoon. In 
-        extremely specific cases, Vecna can be patron to such warlocks as well.</p>  
-    <h4>Expanded Spells List</h4>
-    <p>The Archlich lets you choose from an expanded spell list when you learn a warlock spell. The 
-        following spells are added to the warlock spell list for you.</p>
-        <ul>
-            <li>Spell Level 1- <i>False Life, Ray of Sickness</i></li>
-            <li>Spell Level 2- <i>Blindness/Deafness, Ray of Enfeeblement</i></li>
-            <li>Spell Level 3- <i>Animate Dead, Vampiric Touch</i></li>
-            <li>Spell Level 4- <i>Blight, Confusion</i></li>
-            <li>Spell Level 5- <i>Contact Other Plane, Raise Dead</i></li>
-        </ul>
-    <h4>Blessing of the Archlich</h4>
-    <p>Starting at 1st level, you gain the ability to transfer life force from your enemies to yourself. 
-        Once per turn when you kill one or more creatures with a cantrip, you gain temporary hit points 
-        equal to the Overkill damage dealt. You can do this a number of times equal to your warlock level 
-        per short rest.</p>
-    <h4>Control Undead</h4>
-    <p>At 6th level when you cast Animate Dead, you can target one additional corpse or pile of bones to 
-        create an additional zombie or skeleton. Whenever you create an undead with Animate Dead it has 
-        these additional benefits:</p>
-    <ul>
-        <li>The creature's hit point maximum is increased by an amount equal to your warlock level.</li>
-        <li>The creature adds your proficiency bonus to its weapon damage.</li>
-        <li>If you picked the Pact of the Beast, Chain, Claw, Looter, Lord, or Symbiote feature, you can 
-            command one of your undead to make an extra attack once per turn.</li>
-        <li>If you picked the Pact of the Aegis, Blade, Morning Star, Pathfinder, or Shroud feature, you 
-            can summon your pact item in the possession of one of your undead.</li>
-        <li>If you picked the Pact of the Charm, Eidolon, Geas, Oracle, or Tome feature, you can choose 
-            to cast touch cantrips through one of your undead.</li>
-        <li>If you picked the Pact of the Deck feature, you can choose to either command one of your 
-            undead to make an extra attack once per turn or to cast touch cantrips through one of your 
-            undead, but you make the choice when you draw your card, and it stays that way until the next 
-            long rest.</li>
-    </ul>
-    <h4>Necrotic Resilience</h4>
-    <p>Beginning at 10th level, you have resistance to necrotic damage.Additionally, once per turn you 
-        gain the ability to heal yourself for half the necrotic damage you take (accounting for your 
-        resistance, this will equal a quarter of the necrotic damage originally dealt).</p>
-    <h4>Undead Commander</h4>
-    <p>Starting at 14th level, you can use magic to bring undead under your control, even those summoned 
-        or created by other people. As an action, you can choose one undead that you can see within 60 
-        feet of you. That creature must make a Charisma saving throw against your warlock spell save DC. 
-        If it succeeds, you can't use this feature on it again. If it fails, it becomes friendly to you 
-        and obeys your command until you use this feature again.</p>
-    <p>Intelligent undead are harder to control in this way. If the target has an Intelligence of 12 or 
-        higher, it can repeat the saving throw at the end of every hour until it succeeds and breaks free.</p>
-</body>
-<footer>
-    <div class="social">
-        <a href="https://instagram.com" target="_blank">
-            <img src="./images/instagram.png" alt="instagram icon">
-        </a>
+    <h2 class="archfeyTitle">The Archfey</h2>
+    <div class="archfeyFull">
+        <div class="archfey">
+            <img class="archfey1" src="./images/archfey.jpg">
+            <img class="archfey2" src="./images/archfey2.webp">
+        </div>
+        <div class="archfeyInfo">
+            <p>Your patron is a lord or lady of the fey, a creature of legend who holds secrets that were 
+            forgotten before the mortal races were born. This being's motivations are often inscrutable, and 
+            sometimes whimsical, and might involve a striving for greater magical power or the settling of 
+            age-old grudges. Beings of this sort include the Prince of Frost; the Queen of Air and Darkness, 
+            ruler of the Gloaming Court; Titania of the Summer Court; her consort Oberon, the Green Lord; 
+            Hyrsam, the Prince of Fools; and ancient hags.</p>
+            <h4>Expanded Spell List</h4>
+            <p>The Archfey lets you choose from an expanded list of spells when you learn a warlock spell. The 
+            following spells are added to the warlock spell list for you.</p>
+            <ul>
+                <li>Spell Level 1- <i>Faerie Fire, Sleep</i></li>
+                <li>Spell Level 2- <i>Calm Emotions, Phantasmal Force</i></li>
+                <li>Spell Level 3- <i>Blink, Plant Growth</i></li>
+                <li>Spell Level 4- <i>Dominate Beast, Greater Invisibility</i></li>
+                <li>Spell Level 5- <i>Dominate Person, Seeming</i></li>
+            </ul>
+            <h4>Fey Presence</h4>
+            <p>Starting at 1st level, your patron bestows upon you the ability to project the beguiling and 
+            fearsome presence of the fey. As an action, you can cause each creature in a 10-foot cube 
+            originating from you to make a Wisdom saving throw against your warlock spell save DC. The 
+            creatures that fail their saving throws are all charmed or frightened by you (your choice) 
+            until the end of your next turn.</p>
+            <p>Once you use this feature, you can't use it again until you finish a short or long rest.</p>
+            <h4>Misty Escape</h4>
+            <p>Starting at 6th level, you can vanish in a puff of mist in response to harm. When you take damage, 
+            you can use your reaction to turn invisible and teleport up to 60 feet to an unoccupied space you 
+            can see. You remain invisible until the start of your next turn or until you attack or cast a spell.</p>
+            <h4>Beguiling Defenses</h4>
+            <p>Beginning at 10th level, your patron teaches you how to turn the mind-affecting magic of your 
+            enemies against them. You are immune to being charmed, and when another creature attempts to 
+            charm you, you can use your reaction to attempt to turn the charm back on that creature. The 
+            creature must succeed on a Wisdom saving throw against your warlock spell save DC or be charmed 
+            by you for 1 minute or until the creature takes any damage.</p>
+            <h4>Dark Delirium</h4>
+            <p>Starting at 14th level, you can plunge a creature into an illusory realm. As an action, choose a 
+            creature that you can see within 60 feet of you. It must make a Wisdom saving throw against your 
+            warlock spell save DC. On a failed save, it is charmed or frightened by you (your choice) for 1 
+            minute or until your concentration is broken (as if you are concentrating on a spell). This effect 
+            ends early if the creature takes any damage.</p>
+            <p>Until this illusion ends, the creature thinks it is lost in a misty realm, the appearance of which 
+            you choose. The creature can see and hear only itself, you, and the illusion.</p>
+            <p>You must finish a short or long rest before you can use this feature again.</p>
+        </div>
     </div>
-    <p class="disclaimer">This is unofficial Fan Content permitted under the Fan Content Policy (And it's also for personal use). Not approved/endorsed by Wizards. Portions of the materials used
+    <h2 class="archlichTitle">The Archlich</h2>  
+    <div class="archlichFull">
+        <div class="archlich">
+            <img class="archlich1" src="./images/archlich.jpg">
+            <img class="archlich2" src="./images/archlich2.webp">
+        </div>
+        <div class="archlichInfo">
+            <p>Your patron is an archlich, a particularly powerful lich that may have been neutral or good during 
+            life. This being's motivations include immortality, mastery of death and undeath, and the acquisition 
+            of any kind of knowledge you or it can access. Entities of this type include Lady Alanthene Moonstar 
+            of Waterdeep, Rhaudilath the Ageless, Ezzat the Archlich, Lady Saharel, and Renwick Caradoon. In 
+            extremely specific cases, Vecna can be patron to such warlocks as well.</p>  
+            <h4>Expanded Spells List</h4>
+            <p>The Archlich lets you choose from an expanded spell list when you learn a warlock spell. The 
+            following spells are added to the warlock spell list for you.</p>
+            <ul>
+                <li>Spell Level 1- <i>False Life, Ray of Sickness</i></li>
+                <li>Spell Level 2- <i>Blindness/Deafness, Ray of Enfeeblement</i></li>
+                <li>Spell Level 3- <i>Animate Dead, Vampiric Touch</i></li>
+                <li>Spell Level 4- <i>Blight, Confusion</i></li>
+                <li>Spell Level 5- <i>Contact Other Plane, Raise Dead</i></li>
+            </ul>
+            <h4>Blessing of the Archlich</h4>
+            <p>Starting at 1st level, you gain the ability to transfer life force from your enemies to yourself. 
+            Once per turn when you kill one or more creatures with a cantrip, you gain temporary hit points 
+            equal to the Overkill damage dealt. You can do this a number of times equal to your warlock level 
+            per short rest.</p>
+            <h4>Control Undead</h4>
+            <p>At 6th level when you cast Animate Dead, you can target one additional corpse or pile of bones to 
+            create an additional zombie or skeleton. Whenever you create an undead with Animate Dead it has 
+            these additional benefits:</p>
+            <ul>
+                <li>The creature's hit point maximum is increased by an amount equal to your warlock level.</li>
+                <li>The creature adds your proficiency bonus to its weapon damage.</li>
+                <li>If you picked the Pact of the Beast, Chain, Claw, Looter, Lord, or Symbiote feature, you can 
+                command one of your undead to make an extra attack once per turn.</li>
+                <li>If you picked the Pact of the Aegis, Blade, Morning Star, Pathfinder, or Shroud feature, you 
+                can summon your pact item in the possession of one of your undead.</li>
+                <li>If you picked the Pact of the Charm, Eidolon, Geas, Oracle, or Tome feature, you can choose 
+                to cast touch cantrips through one of your undead.</li>
+                <li>If you picked the Pact of the Deck feature, you can choose to either command one of your 
+                undead to make an extra attack once per turn or to cast touch cantrips through one of your 
+                undead, but you make the choice when you draw your card, and it stays that way until the next 
+                long rest.</li>
+            </ul>
+            <h4>Necrotic Resilience</h4>
+            <p>Beginning at 10th level, you have resistance to necrotic damage.Additionally, once per turn you 
+            gain the ability to heal yourself for half the necrotic damage you take (accounting for your 
+            resistance, this will equal a quarter of the necrotic damage originally dealt).</p>
+            <h4>Undead Commander</h4>
+            <p>Starting at 14th level, you can use magic to bring undead under your control, even those summoned 
+            or created by other people. As an action, you can choose one undead that you can see within 60 
+            feet of you. That creature must make a Charisma saving throw against your warlock spell save DC. 
+            If it succeeds, you can't use this feature on it again. If it fails, it becomes friendly to you 
+            and obeys your command until you use this feature again.</p>
+            <p>Intelligent undead are harder to control in this way. If the target has an Intelligence of 12 or 
+            higher, it can repeat the saving throw at the end of every hour until it succeeds and breaks free.</p>
+        </div>
+    </div>
+
+        </body>
+<footer>
+    <div class="footerElements">
+        <div class="social">
+            <a href="https://instagram.com" target="_blank">
+                <img src="./images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+        <p class="disclaimer">This is unofficial Fan Content permitted under the Fan Content Policy (And it's also for personal use). Not approved/endorsed by Wizards. Portions of the materials used
         are property of Wizards of the Coast. ©Wizards of the Coast LLC.</p>
-    <p><a href="./contactus.html">Contact Us</a></p>
+        <button class="contact" href="./contactus.html">Contact Us</button>
+    </div>
 </footer>
 </html>
