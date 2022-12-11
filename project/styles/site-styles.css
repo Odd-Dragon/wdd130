@@ -35,3 +35,12 @@ table tr:nth-child(odd){background-color:#99c9bd}
 .itemsLink{color:#590124; font-family:'Titillium Web',Arial, Helvetica, sans-serif;}
 .patrons{color:#590124; font-family:'Titillium Web',Arial, Helvetica, sans-serif;}
 ul{color:#0c4d50; font-family:'Titillium Web',Arial, Helvetica, sans-serif;}
+.patronIntro{text-align: center;}
+.archfeyFull{size: 100%; display:grid; width: 100%; grid-template-columns: 45% 45%; column-gap: 10px;}
+.archfey1{width: 100%}
+.archfey2{width: 100%}
+.archfeyTitle{text-align:center}
+.archlichFull{size: 100%; display:grid; width: 100%; grid-template-columns: 45% 45%; column-gap: 10px;}
+.archlich1{width: 100%}
+.archlich2{width: 100%}
+.archlichTitle{text-align:center}
